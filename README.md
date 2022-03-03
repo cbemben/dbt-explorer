@@ -1,10 +1,12 @@
-Welcome to your new dbt project!
+Welcome to Chris B. learning dbt!
 
-### Using the starter project
+If you're reading this, stay awake for a few more lines while I explain what I'm doing here.
 
-Try running the following commands:
-- dbt run
-- dbt test
+### I'm using the dbt starter project
+
+- I'm using the dbt CLI for everything and editing in Sublime text on Mac OS. 
+- I'm using the `dbt-bigquery` implementation linked to my personal __GCP__ account.
+
 
 
 ### Resources:
