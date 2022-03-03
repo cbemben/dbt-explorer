@@ -1,4 +1,4 @@
-Welcome to Chris B. learning dbt!
+## Welcome to Chris B. learning dbt!
 
 If you're reading this, stay awake for a few more lines while I explain what I'm doing here.
 
