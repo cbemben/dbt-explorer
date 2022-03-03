@@ -2,13 +2,18 @@ version: 2
 
 models:
   - name: customers
+    description: primary customer datasource where one record represents one customer
     columns:
       - name: customer_id
+        description: this is the unique identifier of a single customer, primary key.
         tests:
           - unique
           - not_null
+      - name: first_order_date
+        description: NULL when customer has not yet placed an order
 
   - name: stg_customers
+    description: stages a clean model of customer data
     columns:
       - name: customer_id
         tests:
@@ -16,6 +21,7 @@ models:
           - not_null
 
   - name: stg_orders
+    description: model that cleans and stages order data
     columns:
       - name: order_id
         tests:
