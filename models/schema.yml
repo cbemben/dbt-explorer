@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: customers
+  - name: dim_customers
     description: primary customer datasource where one record represents one customer
     columns:
       - name: customer_id
