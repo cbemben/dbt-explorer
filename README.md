@@ -7,7 +7,13 @@ If you're reading this, stay awake for a few more lines while I explain what I'm
 - I'm using the dbt CLI for everything and editing in Sublime text on Mac OS. 
 - I'm using the `dbt-bigquery` implementation linked to my personal __GCP__ account.
 
-
+## Things I Need to Remember
+To install a dbt package from a local repository. Once the package repository has been cloned to the local machine configure the `packages.yml` file like this:
+```
+packages:
+  - local: ~/path/to/the/package/repository
+```
+Then run `dbt deps`
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
